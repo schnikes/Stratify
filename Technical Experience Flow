@@ -1,0 +1,49 @@
+Stratify – Technical Experience Flow
+
+    Game Launch Detection
+    Stratify is a background Overwolf application that listens for the launch of Valorant using Overwolf’s game detection services. Once the game is active, it begins subscribing to relevant game event streams.
+
+    Match Information Retrieval
+    Through Overwolf’s Game Event Provider (GEP), Stratify accesses the match_info and me features. This provides:
+
+        The current map (e.g., Haven, Bind)
+
+        The local player’s selected agent
+
+        A full list of allied agents through the match roster
+
+    No opponent data is accessed at any time.
+
+    Buy Phase Trigger
+    Stratify listens for the round_phase event to identify the beginning of each round’s buy phase. This is the moment during which strategy decisions are most relevant and time-sensitive.
+
+    Strategy Selection Engine
+    Upon detecting the buy phase, Stratify uses locally stored data models (agent abilities and tags) to analyze the team’s collective capability. It then selects a matching strategy from a predefined library of site- and map-specific strategies.
+
+    Task Assignment and Display
+    Once a strategy is selected, Stratify assigns individual tasks to agents based on their ability tags. These assignments are presented to the user in a lightweight in-game overlay. Tasks include statements such as:
+
+        “Omen: Smoke CT and Garage”
+
+        “Breach: Flash close cubby”
+
+        “Jett: Entry through C Long”
+
+    These instructions are passive, text-based, and do not control gameplay or input.
+
+    Player Execution
+    The user can act on the suggestions or ignore them entirely. The app is non-intrusive and designed to aid communication and decision-making, particularly in ranked matches without a designated shotcaller.
+
+Compliance and Safety Considerations
+
+    All data is collected via Overwolf’s approved game integration, not directly from Riot’s APIs.
+
+    No opponent or external account information is accessed or stored.
+
+    The app does not automate gameplay, provide predictive analytics, or use machine learning models.
+
+    Strategy data is predefined and does not adapt in real-time based on opponent behavior or performance.
+
+Purpose
+
+Stratify is built to improve the quality of team coordination and in-game decision-making in solo queue and uncoordinated team environments. It is not a competitive exploit, but a guidance tool that operates entirely within the game’s intended mechanics and Riot’s developer guidelines.
