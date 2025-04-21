@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 - Detects your full **team composition** (agents selected)
 - Recognizes the **current map and round phase**
@@ -16,18 +16,18 @@ This tool is built to assist players who don’t always have a designated play c
 
 ---
 
-## ✅ Safety & Riot Compliance
+## Safety & Riot Compliance
 
 Stratify is built with **fair play** and **player safety** as core priorities:
 
-- ✅ **No opponent data is accessed or used** — strategies are based solely on your own team composition and the current map.
-- ✅ Uses only **official APIs** provided by Overwolf and Riot Games.
-- ✅ Does **not automate gameplay**, aim, input, or provide any competitive advantage beyond what a human IGL could offer.
-- ✅ All logic is pre-modeled — this is **not machine learning**, **not predictive**, and **not exploitative**.
+-  **No opponent data is accessed or used** — strategies are based solely on your own team composition and the current map.
+-  Uses only **official APIs** provided by Overwolf and Riot Games.
+-  Does **not automate gameplay**, aim, input, or provide any competitive advantage beyond what a human IGL could offer.
+-  All logic is pre-modeled — this is **not machine learning**, **not predictive**, and **not exploitative**.
 
 ---
 
-## 🔒 Privacy and Security
+##  Privacy and Security
 
 - The app runs entirely on the player's machine and does **not send or store personal data** externally.
 - No login or account linking is required.
@@ -35,22 +35,22 @@ Stratify is built with **fair play** and **player safety** as core priorities:
 
 ---
 
-## 🚧 Current Status
+##  Current Status
 
 This app is currently in **active development** and available to test in the Overwolf Developer Console. A public beta release is expected soon.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For questions, feature suggestions, or early access requests, feel free to open an issue or contact the developer at:
 
-**📧 schnikes.alt@gmail.com**  
+**schnikes.alt@gmail.com**  
 **GitHub: [@schnikes](https://github.com/schnikes)**
 
 ---
 
-## 🏗️ Built With
+## Built With
 
 - [Overwolf Game Events API](https://overwolf.github.io/docs/api/overwolf-games-events/)
 - Valorant Agent and Map Metadata (publicly available)
