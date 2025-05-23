@@ -1,6 +1,6 @@
 # Stratify
 
-**Stratify** is an in-game IGL (In-Game Leader) tool designed to help solo queue and coordinated teams make better round-by-round decisions in real time. Built on the Overwolf platform and powered by Riot’s public in-game data, the app automatically analyzes your team composition and the current map to suggest tailored strategies during the buy phase.
+**Stratify** is an IGL (In-Game Leader) tool designed to help ranked players and teams make better round-by-round decisions in real time. Built on the Overwolf platform and powered by their GEP (Game Events Provider), the app automatically analyzes your team composition and the current map to suggest tailored strategies during the buy phase.
 
 ---
 
