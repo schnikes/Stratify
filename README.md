@@ -37,7 +37,7 @@ Stratify is built with **fair play** and **player safety** as core priorities:
 
 ##  Current Status
 
-This app is currently in **active development** and available to test in the Overwolf Developer Console. A public beta release is expected soon.
+This app is currently in **active development**. A public beta release is expected soon.
 
 ---
 
